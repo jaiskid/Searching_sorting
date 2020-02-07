@@ -2,9 +2,8 @@
 using namespace std;
 int partion(int *arr,int s,int e){
 	int i=s-1;
-	int j=s;
 	int pivot =arr[e];
-	for(;j<e;j++){
+	for(int j=s;j<e;j++){
 	if(arr[j]<=pivot)
 	{
 	i++;
